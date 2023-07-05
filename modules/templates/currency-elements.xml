@@ -163,10 +163,6 @@ if (currencyLogo.length && typeof currencyLogo.xiboImageRender === 'function') {
     $(target).find("img").xiboImageRender(properties);
 }
 
-if ($(target).length && typeof currencyLogo.xiboLayoutScaler === 'function') {
-    $(target).xiboLayoutScaler(properties);
-}
-
 ]]></onTemplateRender>
         <assets>
             <asset id="currency-logo" type="path" cmsOnly="true" mimeType="image/png" path="/modules/assets/template-thumbnails/currency/elements/currency-logo.png" />
